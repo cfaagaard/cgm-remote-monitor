@@ -368,7 +368,7 @@ paths:
         - Entries
       summary: Delete entries matching query.
       description: 'Remove entries, same search syntax as GET.'
-      operationId: remove
+      operationId: removeEntries
       parameters:
         - name: find
           in: query
@@ -449,7 +449,7 @@ paths:
         - Treatments
       summary: Delete treatments matching query.
       description: 'Remove treatments, same search syntax as GET.'
-      operationId: remove
+      operationId: removeTreatments
       parameters:
         - name: find
           in: query
