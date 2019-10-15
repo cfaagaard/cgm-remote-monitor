@@ -28,7 +28,7 @@ paths:
           required: true
           schema:
             type: string
-            default: sgv
+            default: sgv 
         - name: find
           in: query
           description: |
